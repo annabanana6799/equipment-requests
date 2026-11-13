@@ -1,0 +1,72 @@
+[
+  {
+    "request_id": "REQ-1001",
+    "employee_name": "Avery Johnson",
+    "equipment_item": "Laptop",
+    "priority": "High",
+    "status": "Open"
+  },
+  {
+    "request_id": "REQ-1002",
+    "employee_name": "Morgan Lee",
+    "equipment_item": "Ergonomic keyboard",
+    "priority": "Medium",
+    "status": "Open"
+  },
+  {
+    "request_id": "REQ-1003",
+    "employee_name": "Riley Patel",
+    "equipment_item": "External monitor",
+    "priority": "Low",
+    "status": "Closed"
+  },
+  {
+    "request_id": "REQ-1004",
+    "employee_name": "Jordan Kim",
+    "equipment_item": "Noise-canceling headset",
+    "priority": "High",
+    "status": "Open"
+  },
+  {
+    "request_id": "REQ-1005",
+    "employee_name": "Taylor Garcia",
+    "equipment_item": "Laptop dock",
+    "priority": "Medium",
+    "status": "Closed"
+  },
+  {
+    "request_id": "REQ-1006",
+    "employee_name": "Casey Brown",
+    "equipment_item": "Webcam",
+    "priority": "Low",
+    "status": "Open"
+  },
+  {
+    "request_id": "REQ-1007",
+    "employee_name": "Sam Wilson",
+    "equipment_item": "Laptop",
+    "priority": "High",
+    "status": "Open"
+  },
+  {
+    "request_id": "REQ-1008",
+    "employee_name": "Jamie Chen",
+    "equipment_item": "Standing desk converter",
+    "priority": "Medium",
+    "status": "Closed"
+  },
+  {
+    "request_id": "REQ-1009",
+    "employee_name": "Alex Thompson",
+    "equipment_item": "External monitor",
+    "priority": "Low",
+    "status": "Open"
+  },
+  {
+    "request_id": "REQ-1010",
+    "employee_name": "Drew Martinez",
+    "equipment_item": "Ergonomic chair",
+    "priority": "High",
+    "status": "Open"
+  }
+]
