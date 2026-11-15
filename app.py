@@ -66,7 +66,7 @@ def main():
         priority_order = {"High": 0, "Medium": 1, "Low": 2}
         visible_requests.sort(
             key=lambda request: (
-                priority_order[request["priority"]],
+                priority_order.get(request["priority"], len(priority_order)),
                 request["request_id"],
             )
         )
@@ -86,6 +86,10 @@ def main():
         scrollbar.pack(side="right", fill="y")
 
         for request in visible_requests:
+            priority = request["priority"]
+            if priority not in priority_order:
+                priority = "Unknown"
+
             requests_table.insert(
                 "",
                 "end",
@@ -93,7 +97,7 @@ def main():
                     request["request_id"],
                     request["employee_name"],
                     request["equipment_item"],
-                    request["priority"],
+                    priority,
                     request["status"],
                 ),
             )
